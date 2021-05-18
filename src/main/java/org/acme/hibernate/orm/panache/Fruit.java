@@ -3,12 +3,16 @@ package org.acme.hibernate.orm.panache;
 import javax.persistence.Cacheable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-
-import io.quarkus.hibernate.reactive.panache.PanacheEntity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 @Cacheable
-public class Fruit extends PanacheEntity {
+public class Fruit  {
+
+    @Id
+    @GeneratedValue
+    public Long id;
 
     @Column(length = 40, unique = true)
     public String name;

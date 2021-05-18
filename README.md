@@ -1,4 +1,8 @@
-# Quarkus demo: Hibernate Reactive with Panache and RESTEasy Reactive
+# Quarkus demo: Hibernate Reactive with Panache Repository and RESTEasy Reactive
+
+| :information_source: Note |
+|:--------------------------|
+| This is a copy using the Panache Repository (see the original using the Panache Entity in https://github.com/quarkusio/quarkus-quickstarts/tree/main/hibernate-reactive-panache-quickstart). |
 
 This is a minimal CRUD service exposing a couple of endpoints over REST,
 with a front-end based on Angular so you can play with it from your browser.
